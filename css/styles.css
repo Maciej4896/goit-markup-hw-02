@@ -112,6 +112,7 @@ button:focus {
   font-size: 44px;
   line-height: 1.36;
   color: #fff;
+  font-weight: 900;
 }
 .background-color {
   background-color: var(--secondary-site-background-color);
