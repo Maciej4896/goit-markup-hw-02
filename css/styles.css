@@ -13,15 +13,14 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-.button-panel {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  padding: 6px 22px 6px 22px;
-}
+
 .button-panel button {
   background-color: var(--element-background-color);
   border: 4px var(--element-background-color) solid;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  padding: 6px 22px;
 }
 .button-panel button:hover,
 button:focus {
@@ -35,7 +34,6 @@ button:focus {
 }
 .navigation-links a {
   font-weight: 500;
-  font-size: 14px;
   text-decoration: none;
   color: #212121;
   line-height: 1.14;
@@ -50,7 +48,6 @@ button:focus {
 .contact-info,
 .contact-info a {
   font-weight: 500;
-  font-size: 14px;
   color: var(--secondary-text-color);
   text-decoration: none;
   line-height: 1.14;
@@ -76,7 +73,6 @@ button:focus {
   letter-spacing: 0.06em;
 }
 .projects p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
@@ -91,7 +87,6 @@ button:focus {
 }
 .contact-info-bottom a {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
   line-height: 1.71;
 }
 .contact-info-bottom a[href='mailto:info@example.com'] {
@@ -122,19 +117,17 @@ button:focus {
   background-color: var(--secondary-site-background-color);
 }
 .description-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 .job-description {
   color: var(--secondary-text-color);
   line-height: 1.18;
+  font-size: 16px;
 }
 .text-header {
   font-weight: 700;
   line-height: 1.14;
-  font-size: 14px;
 }
 
 .our-crew-list h2,
@@ -142,6 +135,8 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .our-crew-list h3 {
   font-weight: 500;
@@ -155,8 +150,7 @@ button:focus {
 .contact-info:focus,
 .contact-info-mail:hover,
 .contact-info-mail:focus {
-  color: var(--main-site-background-color);
-  background-color: var(--brand-color);
+  color: var(--brand-color);
 }
 .main-button button {
   padding: 10px 41px 10px 42px;
@@ -168,6 +162,7 @@ button:focus {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 .main-button button:hover,
 .main-button button:focus {
@@ -180,4 +175,7 @@ button:focus {
 
 .contact-info-bottom .contact-info-mail[href='mailto:info@example.com'] {
   text-decoration: none;
+}
+.bottom-information address {
+  font-style: normal;
 }
